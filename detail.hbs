@@ -1,0 +1,14 @@
+/**
+ * Desc: Create a detail.hbs in /custom/modules/{Module}/clients/base/fields/custom_badge/
+ * Written by: Mohammed Jhosawa
+ */
+
+{{#if this.model.id}}
+{{#eq this.model.attributes.custom_badge_c ""}}
+<span class="label label-pending">No Badge</span>
+{{else}}
+<span class="label label-info">{{this.model.attributes.custom_badge_c}}</span>
+{{/eq}}
+{{/if}}
+
+
