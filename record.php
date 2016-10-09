@@ -1,4 +1,4 @@
-<? php
+<?php
 
 /**
  * Desc: Define Custom Badge in /custom/module/{Module}/clients/base/views/record/record.php
